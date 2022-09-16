@@ -1,0 +1,93 @@
+.intro-sec, .infos-sec {
+  width: 100%;
+  padding-bottom: 5%;
+  margin-top: 5%;
+}
+
+.intro-div, .infos-div {
+  max-width: 1080px;
+  margin: 0 auto;
+  display: grid;
+  grid-template-columns: repeat(2, 50%);
+  grid-gap: 2.5%;
+  margin-bottom: 5%;
+}
+
+@media (max-width: 1080px) {
+  .intro-div, .infos-div {
+    display: block;
+  }
+  
+  .intro-div p, .infos-div p {
+    width: 90%;
+    margin: 0 auto;
+  }
+
+  .qualities-sec .school-qualities {
+    width: 100% !important;
+    display: block !important;
+  }
+
+  .qualities-sec .school-qualities div {
+    width: 40%;
+    margin: 0 auto;
+    margin-bottom: 2rem;
+  }
+}
+
+.intro-div img, .infos-div img {
+  width: 100%;
+}
+
+.intro-div p, .infos-div p {
+  font-size: 1rem;
+  line-height: 1.5rem;
+  text-align: justify;
+  margin-top: 5%;
+  margin-bottom: 5%;
+}
+
+.schl-cur {
+  padding-top: 5%;
+}
+
+.qualities-sec {
+  width: 100%;
+  padding: 10rem 0;
+  transform: skewY(-7deg);
+  background-image: linear-gradient(to right bottom, rgba(126, 213, 111, 0.8), rgba(40, 180, 133, 0.8)), url('../img/TAKE-A-TOUR/IMG-20220815-WA0023.jpg');
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position-y: 20%;
+}
+
+.qualities-sec .school-qualities {
+  width: 1080px;
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  grid-gap: 5%;
+  margin: 0 auto;
+  padding-top: 3rem;
+  transform: skewY(7deg);
+}
+
+.qualities-sec .school-qualities div {
+  height: 10rem;
+  border-radius: .5rem;
+  color: #000;
+  background-color: rgba(255, 255, 255, 0.8);
+  padding: 2.5rem;
+  text-align: center;
+  box-shadow: 0 1.5rem 4rem rgb(0 0 0 / 15%);
+  transition: transform .3s;
+}
+
+.qualities-sec .school-qualities div:hover {
+  transform: scale(1.03);
+}
+
+.qualities-sec .school-qualities div span {
+  font-size: 4rem;
+  padding-bottom: 4rem;
+  color: rgba(126, 213, 111, 0.8);
+}

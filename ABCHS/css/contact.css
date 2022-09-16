@@ -1,0 +1,55 @@
+.heading {
+  width: 100%;
+  padding: 5rem 0;
+  background-image: linear-gradient(to right bottom, rgba(126, 213, 111, 0.8), rgba(40, 180, 133, 0.8)), url('../img/TAKE-A-TOUR/IMG-20220815-WA0029.jpg');
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position-y: 30%;
+}
+
+.heading h1 {
+  padding-left: 2rem;
+  color: #fff;
+  text-shadow: 2px 2px 5px #000;
+}
+
+p {
+  margin-bottom: 3rem;
+}
+
+form {
+  width: 80%;
+  padding: 4rem 2rem;
+  margin: 0 auto;
+  margin-top: 3rem;
+  border: 3px solid rgba(40, 180, 133, 0.8);
+  box-shadow: 5px 5px 5px rgba(0, 0, 0, 0.2);
+}
+
+form input, textarea {
+  padding: 1rem;
+  background-color: #eee;
+  border: none;
+  margin: 1rem;
+  color: rgba(40, 180, 133, 0.8);
+}
+
+form input:nth-child(4), form input:nth-child(5) {
+  width: 45%;
+}
+
+form input:nth-child(3) {
+  width: 95%;
+}
+
+form textarea {
+  width: 95%;
+}
+
+form button {
+  font-size: 1.2rem;
+  padding: .7rem 2rem;
+  float: right;
+  color: rgba(40, 180, 133, 0.8);
+  border: 1px solid rgba(40, 180, 133, 0.8);
+}

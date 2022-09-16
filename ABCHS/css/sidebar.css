@@ -1,0 +1,62 @@
+header .menubtn {
+  display: none;
+  z-index: 1000;
+  position: fixed;
+  top: .5rem;
+  right: 2rem;
+  font-size: 2rem;
+  color: rgba(126, 213, 111, 0.8);
+  cursor: pointer;
+}
+
+header .side-nav {
+  display: none;
+  width: 100%;
+  background-color: #fff;
+  position: fixed;
+  z-index: 9999;
+  top: 0;
+  right: 0;
+  height: 30rem;
+  box-shadow: 0 5px 15px rgba(0, 0, 0, 0.2);
+}
+
+header .side-nav .closebtn {
+  color: rgba(126, 213, 111, 0.8);
+  font-size: 2rem;
+  margin-left: 85%;
+  line-height: 4rem;
+  text-decoration: none;
+}
+
+header .side-nav ul {
+  padding: 1rem;
+  list-style: none;
+}
+
+header .side-nav ul li {
+  padding: 1rem;
+  cursor: pointer;
+  text-align: center;
+}
+
+header .side-nav ul li a:hover {
+  padding: 1rem 5rem;
+  background-image: linear-gradient(to right bottom, rgba(126, 213, 111, 0.8), rgba(40, 180, 133, 0.8));
+  color: #fff;
+}
+
+header .side-nav ul li a {
+  color: rgba(40, 180, 133, 0.8);
+  text-decoration: none;
+}
+
+@keyframes moveDown {
+  0% {
+    transform: translateY(-100%);
+  }
+
+  100% {
+    transform: translateY(0);
+  }
+}

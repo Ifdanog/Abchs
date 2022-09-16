@@ -1,0 +1,64 @@
+.heading {
+  width: 100%;
+  padding: 5rem 0;
+  background-image: linear-gradient(to right bottom, rgba(126, 213, 111, 0.8), rgba(40, 180, 133, 0.8)), url('../img/TAKE-A-TOUR/IMG-20220815-WA0024.jpg');
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position-y: 70%;
+}
+
+.heading h1 {
+  padding-left: 2rem;
+  color: #fff;
+  text-shadow: 2px 2px 5px #000;
+}
+
+.about-container {
+  max-width: 1080px;
+  margin: 0 auto;
+  margin-top: 5%;
+}
+
+.about-container p {
+  font-size: 1rem;
+  line-height: 1.5rem;
+  text-align: justify;
+  margin-bottom: 1rem;
+}
+
+table {
+  width: 90%;
+  margin: 0 auto;
+  padding: 2rem;
+}
+
+thead {
+  background-color: rgba(40, 180, 133, 0.8);
+  color: #fff;
+}
+
+thead tr {
+  height: 3rem;
+  border-bottom: 1px solid #000;
+  text-align: center;
+}
+
+tbody tr {
+  height: 3rem;
+  border-bottom: 1px solid #000;
+  text-align: center;
+}
+
+tbody tr:nth-child(even) {
+  background-color: rgba(126, 213, 111, 0.8);
+}
+
+tbody tr:nth-child(odd) {
+  background-color: rgba(126, 213, 111, 0.3);;
+}
+
+@media (max-width: 1080px) {
+  .about-container {
+    width: 90%;
+  }
+}
